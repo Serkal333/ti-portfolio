@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", "Arial", sans-serif;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    color: var(--black);
+}
+
+h1 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+}
+
+.subtitle {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 120%;
+
+    color: var(--green);
+}
+
+h2{
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+h3{
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+button, a {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+:root {
+    --black: #212121;
+    --green: #09A494;
+    --white: #FFFFFF;
+    
+}
+
+footer{
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.container{
+    min-width: 320px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;    
+    color: var(--black);
+}
+
+.main-nav a:hover{
+    color: var(--green);
+}
