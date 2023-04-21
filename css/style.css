@@ -61,7 +61,7 @@ button, a {
     --black: #212121;
     --green: #09A494;
     --white: #FFFFFF;
-    
+
 }
 
 footer{
@@ -85,4 +85,175 @@ footer{
 
 .main-nav a:hover{
     color: var(--green);
+}
+
+button{
+    padding: 0;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+button{
+    padding: 6px 10px 10px;
+    border: 1px solid var(--green);
+    border-radius: 8px;
+    color: var(--green);
+    background-color: var(--white)
+}
+
+button:hover{
+    color: var(--white);
+    background-color: var(--green);
+}
+
+.social{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.social li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.social-link{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--green);
+    border-radius: 50%;
+    background-color: var(--white);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 10px;
+}
+
+.social-link:hover{
+    background-color: var(--green); 
+}
+
+.social-link_github{
+    background-image: url(../img/social/github.svg);
+}
+
+.social-link_vk{
+    background-image: url(../img/social/vk.svg);
+}
+
+.social-link_telegram{
+    background-image: url(../img/social/telegram.svg);
+}
+
+.contact{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contact li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-link{
+    display: block;
+    height: 30px;
+    padding-left: 42px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: var(--black);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 10px 10px;
+}
+
+.contact-link:hover{
+    color: var(--green);
+}
+
+.contact-link_phone{
+    background-image: url(../img/contacts/phone.svg);
+}
+
+.contact-link_mail{
+    background-image: url(../img/contacts/email.svg);
+}
+
+.user-info img{
+    border-radius: 50%;
+}
+
+.skill-list {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+
+.skill-list dt {
+    margin-bottom: 6px;
+    padding: 5px 0 5px 38px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+
+.skill-level {
+    margin: 4px 0 16px;
+    padding: 2px;
+    font-size: 0;
+    border: 1px solid var(--black);
+    border-radius: 16px;
+}
+
+
+.skill-level div {
+    height: 14px;
+    background-color: var(--green);
+    border-radius: 8px;
+}
+
+
+.skill-item {
+    text-transform: lowercase;
+}
+
+
+.skill-item_html {
+    background-image: url("../img/skills/html.svg");
+}
+
+
+.skill-item_css {
+    background-image: url("../img/skills/css.svg");
+}
+
+
+.skill-item_cpp {
+    background-image: url("../img/skills/c++.svg");
+}
+
+
+.skill-item_python {
+    background-image: url("../img/skills/python.svg");
 }
