@@ -101,7 +101,6 @@ button{
     border: 1px solid var(--green);
     border-radius: 8px;
     color: var(--green);
-    background-color: var(--white);
     margin: 20px 5px;
 }
 
@@ -141,7 +140,6 @@ button:hover{
     height: 50px;
     border: 1px solid var(--green);
     border-radius: 50%;
-    background-color: var(--white);
     background-repeat: no-repeat;
     background-position: center;
     margin: 10px 10px;
