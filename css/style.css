@@ -21,6 +21,8 @@ h1 {
     font-weight: 700;
     font-size: 60px;
     line-height: 110%;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .subtitle {
@@ -31,6 +33,7 @@ h1 {
     line-height: 120%;
 
     color: var(--green);
+    margin: 0;
 }
 
 h2{
@@ -39,6 +42,8 @@ h2{
     font-weight: 700;
     font-size: 30px;
     line-height: 120%;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 h3{
@@ -77,10 +82,13 @@ footer{
 }
 
 .main-nav a{
-    display: inline-block;
     text-decoration: none;
     padding: 10px 15px;    
     color: var(--black);
+}
+
+nav{
+    display: flex;
 }
 
 .main-nav a:hover{
@@ -101,7 +109,7 @@ button{
     border: 1px solid var(--green);
     border-radius: 8px;
     color: var(--green);
-    margin: 20px 5px;
+    /*margin: 20px 5px;*/
 }
 
 button:hover{
@@ -218,7 +226,7 @@ button:hover{
 
 
 .skill-level {
-    margin: 4px 0 16px;
+    margin: 4px 0 20px;
     padding: 2px;
     font-size: 0;
     border: 1px solid var(--black);
@@ -255,4 +263,77 @@ button:hover{
 
 .skill-item_python {
     background-image: url("../img/skills/python.svg");
+}
+
+.main-header{
+    display: flex;
+    padding-top: 60px;
+    gap: 40px;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 120px;
+}
+
+.user-info{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 120px;
+}
+
+.text-warper{
+    max-width: 800px;
+}
+
+p{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+p:last-child{
+    margin: 0;
+}
+
+.skills h2{
+    margin: 0;
+}
+
+.skills-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 40px;
+    align-items: flex-start;
+}
+
+.sort{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact{
+    display: flex;
+    margin: 0;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.social{
+    display: flex;
+    margin: 0;
+    gap: 20px;
+}
+
+.main-footer{
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-user, .skills, .interests, .contacts{
+    margin: 0;
+    margin-bottom: 120px;
 }
