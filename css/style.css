@@ -109,7 +109,6 @@ button{
     border: 1px solid var(--green);
     border-radius: 8px;
     color: var(--green);
-    /*margin: 20px 5px;*/
 }
 
 button:hover{
@@ -150,7 +149,7 @@ button:hover{
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 10px 10px;
+    padding: 10px;
 }
 
 .social-link:hover{
@@ -190,7 +189,6 @@ button:hover{
     color: var(--black);
     background-repeat: no-repeat;
     background-position: left;
-    margin: 10px 10px;
 }
 
 .contact-link:hover{
@@ -217,7 +215,7 @@ button:hover{
 
 
 .skill-list dt {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     padding: 5px 0 5px 38px;
     background-position: left;
     background-repeat: no-repeat;
