@@ -304,6 +304,7 @@ p:last-child{
     margin: 0;
     margin-bottom: 40px;
     align-items: flex-start;
+    gap: 40px;
 }
 
 .sort{
