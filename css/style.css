@@ -383,6 +383,13 @@ p:last-child{
    
 }
 
+@media screen and (max-width: 720px) {
+    .user-info img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
 @media screen and (max-width: 650px) {
     body{
         font-size: 14px;
@@ -459,11 +466,6 @@ p:last-child{
         margin-bottom: 10px;
     }
 
-    .user-info img{
-        width: 150px;
-        height: 150px;
-    }
-
     .skills-title{
         margin-bottom: 30px;
     }
@@ -509,23 +511,6 @@ p:last-child{
 }
 
 @media screen and (max-width: 360px) {
-    .skills-title {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .sort {
-        flex-direction: column;
-        width: 100%;
-        align-items: start;
-        gap: 10px;
-    }
-    
-    .sort button {
-        width: 100%;
-        text-align: center;
-    }
-
     .contact {
         flex-direction: column;
         gap: 15px;
