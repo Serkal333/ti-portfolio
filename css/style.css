@@ -373,6 +373,10 @@ p:last-child{
     .main-header, .user-info, .about-user, .skills, .interests, .contacts {
         margin-bottom: 80px;
     }
+    
+    .skill-level {
+        margin-top: 8px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -423,6 +427,11 @@ p:last-child{
         display: block;
         width: 30px;
         height: 30px;
+        border: none;
+    }
+    
+    .nav-btn:hover {
+        background-color: transparent;
     }
 
     .nav-btn_close {
@@ -474,6 +483,9 @@ p:last-child{
 
     .main-header, .user-info, .about-user, .skills, .interests, .contacts {
         margin-bottom: 60px;
+    }
+    .skill-level {
+        margin-bottom: 22px;
     }
 }
 
