@@ -303,7 +303,7 @@ p:last-child{
     justify-content: space-between;
     margin: 0;
     margin-bottom: 40px;
-    align-items: flex-start;
+    align-items: center;
     gap: 40px;
     flex-wrap: wrap;
 }
@@ -377,6 +377,10 @@ p:last-child{
     .skill-level {
         margin-top: 8px;
     }
+
+    .main-header-wrap{
+        line-height: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -415,6 +419,7 @@ p:last-child{
     .main-header{
         flex-direction: column;
         gap: 20px;
+        padding-top: 20px;
     }
 
     .main-header img{
@@ -449,7 +454,7 @@ p:last-child{
         background-image: url(../img/burger.svg);
     }
 
-    .main-header-warp{
+    .main-header-wrap{
         width: 100%;
         display: flex;
         align-items: center;
