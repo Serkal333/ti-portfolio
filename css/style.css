@@ -281,7 +281,7 @@ button:hover{
     margin-bottom: 120px;
 }
 
-.text-warper{
+.text-wraper{
     max-width: 800px;
 }
 
@@ -344,6 +344,10 @@ p:last-child{
     display: none;
 }
 
+.main-header-wrap{
+    line-height: 0;
+}
+
 @media screen and (max-width: 1024px) {
     body{
         font-size: 16px;
@@ -376,10 +380,6 @@ p:last-child{
     
     .skill-level {
         margin-top: 8px;
-    }
-
-    .main-header-wrap{
-        line-height: 0;
     }
 }
 
@@ -500,6 +500,7 @@ p:last-child{
     .skills-title {
         flex-direction: column;
         gap: 20px;
+        align-items: start;
     }
 
     .sort {
@@ -520,6 +521,10 @@ p:last-child{
         flex-direction: column;
         gap: 15px;
         margin-bottom: 20px;
+    }
+
+    .social{
+        gap: 15px;
     }
 
     .main-header, .user-info, .about-user, .skills, .interests, .contacts {
