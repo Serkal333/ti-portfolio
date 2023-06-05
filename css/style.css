@@ -199,8 +199,16 @@ button:hover{
     background-image: url(../img/contacts/phone.svg);
 }
 
+.dark-theme .contact-link_phone{
+    background-image: url(../img/contacts/dark-phone.svg);
+}
+
 .contact-link_mail{
     background-image: url(../img/contacts/email.svg);
+}
+
+.dark-theme .contact-link_mail{
+    background-image: url(../img/contacts/dark-email.svg);
 }
 
 .user-info img{
@@ -263,6 +271,23 @@ button:hover{
     background-image: url("../img/skills/python.svg");
 }
 */
+body{
+    background-color: var(--white);
+}
+
+.dark-theme{
+    --black: #CCCCCC;
+    --white: #031923;
+}
+
+.dark-theme .social-link{
+    background-color: #CCCCCC;  
+}
+
+.dark-theme .social-link:hover{
+    background-color: var(--green);  
+}
+
 
 .main-header{
     display: flex;
