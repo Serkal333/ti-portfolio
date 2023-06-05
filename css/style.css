@@ -243,7 +243,7 @@ button:hover{
     text-transform: lowercase;
 }
 
-
+/*
 .skill-item_html {
     background-image: url("../img/skills/html.svg");
 }
@@ -262,6 +262,7 @@ button:hover{
 .skill-item_python {
     background-image: url("../img/skills/python.svg");
 }
+*/
 
 .main-header{
     display: flex;
