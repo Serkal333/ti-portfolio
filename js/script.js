@@ -22,8 +22,7 @@ const skills = {
             skillDiv.style.width = `${element.level}%`;
             skillDd.append(skillDiv);
 
-            parentElement.append(skillDt);
-            parentElement.append(skillDd);
+            parentElement.append(skillDt, skillDd);
         });
     }
 };

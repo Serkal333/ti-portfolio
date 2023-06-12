@@ -288,6 +288,11 @@ body{
     background-color: var(--green);  
 }
 
+.dark-theme .main-footer{
+    background-color: var(--white);
+    color: var(--black);
+    border-top: 1px solid var(--green);
+}
 
 .main-header{
     display: flex;
