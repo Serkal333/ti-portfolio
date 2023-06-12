@@ -47,8 +47,7 @@ const skills = {
 const skillList = document.querySelector('dl.skill-list');
 skills.generateList(skillList);
 
-const sortBtn = document.querySelector('div.sort');
-sortBtn.isSort = false;
+const sortBtn = document.querySelector('.sort');
 
 sortBtn.addEventListener('click', (e) =>{
     let target = e.target;
@@ -85,5 +84,35 @@ function getComparer(prop){
     }
 };
 
+const menu ={
+    close: function(navMenu, navBtn){
+        navMenu.classList.add('main_nav_closed');
+        navBtn.classList.remove('nav-btn_close');
+        navBtn.classList.add('nav-btn_open');
+        navBtn.innerHTML = 
+        '<span class="visually-hidden">Открыть меню</span>';
+    },
 
-//console.log(sortBtn);
+    open: function(navMenu, navBtn){
+        navMenu.classList.remove('main_nav_closed');
+        navBtn.classList.add('nav-btn_close');
+        navBtn.classList.remove('nav-btn_open');
+        navBtn.innerHTML = 
+        '<span class="visually-hidden">Закрыть меню</span>';
+    },
+
+};
+
+const navMenu = document.querySelector('.main-nav');
+const navBtn = document.querySelector('.nav-btn');
+
+navBtn.addEventListener('click', (e) => {
+    if (e.target.classList.contains('nav-btn_open')){
+        menu.open(navMenu, navBtn);
+    }
+    else{
+        menu.close(navMenu, navBtn);
+    }
+});
+
+menu.close(navMenu, navBtn);
