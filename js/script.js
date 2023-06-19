@@ -116,3 +116,22 @@ navBtn.addEventListener('click', (e) => {
 });
 
 menu.close(navMenu, navBtn);
+
+const checkbox = document.querySelector('.switch-checkbox');
+
+checkbox.addEventListener('change', (e) => {
+    if (e.target.checked){
+        document.body.classList.remove('dark-theme');
+        localStorage.setItem('theme', 'white');
+    }
+    else {
+        document.body.classList.add('dark-theme');
+        localStorage.setItem('theme', 'dark');
+    }
+});
+
+if (localStorage.getItem('theme') === 'white') {
+    document.body.classList.remove('dark-theme');
+    localStorage.setItem('theme', 'white');
+    checkbox.checked = true;
+}
