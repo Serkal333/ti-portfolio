@@ -1,0 +1,22 @@
+[
+      {
+        "name": "html",
+        "level": "70",
+        "img": "img/skills/html.svg"
+    },
+    {
+        "name": "css",
+        "level": "50",
+        "img": "img/skills/css.svg"
+    },
+    {
+        "name": "python",
+        "level": "40",
+        "img": "img/skills/python.svg"
+    },
+    {
+        "name": "c++",
+        "level": "90",
+        "img": "img/skills/c++.svg"
+    }
+]
